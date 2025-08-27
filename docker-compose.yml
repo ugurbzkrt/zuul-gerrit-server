@@ -9,7 +9,7 @@ services:
       - "8080:8080"
       - "29418:29418"
     environment:
-      - CANONICAL_WEB_URL=http://3.78.228.46/
+      - CANONICAL_WEB_URL=http://Your-IP-Port/
     networks:
       - zuul
     volumes:
